@@ -5,14 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c983adba89.js" crossorigin="anonymous"></script>
 </head>
 
-<header>
+<header class="header">
     <h1 class="header-logo">Header Logo</h1>
 
-    <nav>
-        <ul>
+    <nav class="nav">
+        <ul></ul>
             <il><a href="#"></a>header link one</il>
             <il><a href="#"></a>header link two</il>
             <il><a href="#"></a>header link three</il>
@@ -22,18 +26,20 @@
 
 <body>
     <div class="introduction">
-        <h2><strong>This website is awesome!</strong></h2>
-        <p>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast.</p>
-        <button>Sign up</button>
-        <img src="#" alt="image">
+        <div class="left-text">
+            <h2 class="awesome"><strong>This website is awesome!</strong></h2>
+            <p class="text-bellow">This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast.</p>
+            <button class="btn">Sign up</button>
+        </div>
+        <img class="img" src="/images/buildings.jpg" alt="buildings">
     </div>
     <div class="icon-list">
-        <h3><strong>Some random information.</strong></h3>
-        <ul>
-            <il><img src="#" alt="icon">This is some subtext under an illustration or image.</il>
-            <il><img src="#" alt="icon">This is some subtext under an illustration or image.</il>
-            <il><img src="#" alt="icon">This is some subtext under an illustration or image.</il>
-            <il><img src="#" alt="icon">This is some subtext under an illustration or image.</il>
+        <h3 class="info"><strong>Some random information.</strong></h3>
+        <ul class="icon">
+            <il><i class="fa-solid fa-address-book"></i>This is some subtext under an illustration or image.</il>
+            <il><i class="fa-solid fa-dolly"></i>This is some subtext under an illustration or image.</il>
+            <il><i class="fa-solid fa-house-circle-check"></i>This is some subtext under an illustration or image.</il>
+            <il><i class="fa-solid fa-hourglass"></i>This is some subtext under an illustration or image.</il>
         </ul>
     </div>
     <div class="quote">
