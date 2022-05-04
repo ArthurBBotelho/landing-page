@@ -1,3 +1,5 @@
+/*-------------------------------------------header---------------------------------------------------*/
+
 * {
     font-family: 'Roboto', sans-serif;
     padding: 0;
@@ -27,6 +29,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+/*-------------------------------------------introduction---------------------------------------------------*/
 
 .introduction {
     background-color: #1F2937;
@@ -64,13 +68,15 @@
 .btn:hover {
     color: #3882f6;
     background-color: #F9FAF8;
-    transition: ease-in-out 0.5s;
+    transform: ease-in-out 0.5s;
 }
 
 .img {
     width: 900px;
     padding-left: 70px;
 }
+
+/*-------------------------------------------icons---------------------------------------------------*/
 
 .icon-list {
     height: 400px;
@@ -89,10 +95,95 @@
     padding-right: 250px;
     padding-left: 250px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.fa-address-book {
-    
+.fa-solid {
+    color: #1F2937;
+    font-size: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border: solid 5px #3882f6;
+    border-radius: 10px;
+}
 
+.subtext {
+    color: #1F2937;
+    font-size: 18px;
+    padding-top: 20px;
+    width: 170px;
+    justify-items: center;
+}
+
+/*-------------------------------------------quote---------------------------------------------------*/
+
+.quotation-section{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    height: 250px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+}
+
+.quote {
+    font-size: 36px;
+}
+
+.caption {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*-------------------------------------------call to action---------------------------------------------------*/
+
+.call-to-action {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    height: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding-right: 150px;
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.time {
+    font-size: 24px;
+}
+
+.sign-btn {
+    font-size: 24px;
+    height: 50px;
+    width: 200px;
+    color: #E5E7EB;
+    background-color: #3882f6;
+    border: solid 3px #E5E7EB;
+    border-radius: 10px;
+}
+
+.sign-btn:hover {
+    color: #3882f6;
+    background-color: #E5E7EB;
+    transform: ease-in-out 0.5s;
+}
+
+/*------------------------------------------footer---------------------------------------------------*/
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    height: 100px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
